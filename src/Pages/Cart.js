@@ -12,7 +12,7 @@ function Cart() {
     removeItem,
   } = useCart();
 
-  if (isEmpty) return <h1>Your Cart is empty</h1>;
+  if (isEmpty) return <h1 className="h1">Your Cart is empty</h1>;
 
   return (
     <div className="add-cart">
