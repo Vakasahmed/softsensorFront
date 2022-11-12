@@ -14,6 +14,7 @@ function App() {
   const [post, setPost] = useState(3);
 
   useEffect(() => {
+    setPost(3);
     fetch("https://vakasahmed.herokuapp.com/")
       .then((res) => res.json())
       .then((data) => setDetail(data));
